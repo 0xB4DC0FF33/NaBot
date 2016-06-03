@@ -11,7 +11,7 @@ require("jsdom").env("", function(err, window) {
 
 var NaBot = new Discord.Client();
 
-const token = 'MTcwODc5MjcyOTEzODYyNjU2.Ci29Ig.gCxV_Crozs0KvkE0MQjlcP2Bvfg';    // Bot's API token
+const token = '*****************************************';    // Bot's API token
 
 const fullMaps = new Array( "Dust", "Dust II", "Nuke", "Aztec", "Cobblestone", "Overpass", "Mirage", "Inferno", "Cache", "Office", // Full CS:GO map list
 "Vertigo", "Assault", "Italy", "Militia", "Train", "Coast", "Cruise", "Mikla", "Empire", "Santorini", "Royal", "Tulip");
