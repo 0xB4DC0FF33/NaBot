@@ -20,14 +20,12 @@ const fullMaps = new Array( "Dust", "Dust II", "Nuke", "Aztec", "Cobblestone", "
 NaBot.on("message", function(message){
   var command = message.toString().split(' ');
 	
-	if(command[0] === "$ping") {                                              // Test message, to see if the bot successfully read messages
-		NaBot.reply(message, "OVER 9000 ! bien ta grotte ? :D");
-	}else if(command[0] === "$testMaps") {                                      // getMaps function test command
+	if(command[0] === "$ping") {                                            // Test message, to see if the bot successfully read messages
+	  NaBot.reply(message, "OVER 9000 ! bien ta grotte ? :D");
+	}else if(command[0] === "$testMaps") {                                  // getMaps function test command
 	  NaBot.reply(message, getMaps(5));
-	}else if(command[0] === "$maps"){                        // Main command => Get randoms CS:GO maps
+	}else if(command[0] === "$maps"){                        		// Main command => Get randoms CS:GO maps
 	  NaBot.reply(message, getMaps(parseInt(command[1], 10)).toString());
-	}else if(command[0] === "$49.3"){
-	  NaBot.reply(message, "http://fr.pornhub.com/video/search?search=anal+big+dick");
 	}else if(command[0] === "$stats"){
 	  NaBot.reply(message, getStats(parseInt(command[1], 10)).toString());
 	}
