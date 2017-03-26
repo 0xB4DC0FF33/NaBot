@@ -1,29 +1,29 @@
 {
   "name": "nabot",
   "version": "0.0.1",
-  "description": "A discord bot for the vic'team on CS:GO, without much functionalities but at least ... it works",
+  "description": "A very basic discord bot, made in few hours a sunday afternoon....",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Skullpand4/NaBot.git"
+    "url": "git+https://github.com/0xB4DC0FF33/NaBot.git"
   },
-  "author": "Skullpand4 <skullpand4@gmail.com>",
+  "author": "0xB4DC0FF33",
   "dependencies": {
-    "discord.js": "^7.0.1",
-    "jsdom": "^9.2.1"
+    "discord.js": "^11.0.0",
+    "jsdom": "^9.12.0",
+    "request": "^2.81.0"
   },
   "scripts": {
-    "start": "node main.js"
+    "start": "node nabot.js"
   },
   "devDependencies": {},
   "keywords": [
     "Bot",
-    "Discord",
-    "Vic'Team"
+    "Discord"
   ],
   "license": "Beerware",
   "bugs": {
-    "url": "https://github.com/Skullpand4/NaBot/issues"
+    "url": "https://github.com/0xB4DC0FF33/NaBot/issues"
   },
-  "homepage": "https://github.com/Skullpand4/NaBot#readme"
+  "homepage": "https://github.com/0xB4DC0FF33/NaBot#readme"
 }

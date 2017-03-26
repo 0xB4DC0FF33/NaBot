@@ -1,0 +1,20 @@
+__** Generic help **__
+
+All commands works that way :
+             [prefix] [command] [argument1] [arg2] ... [argX]
+__example :__ $              pony            happy
+*will print a happy pony*
+
+You can type enter any number of arguments but not all the commands allow these.
+
+__** Commands list **__
+
+   - *help*         => Print this message
+   - *pony*         => Print a random pony picture (can take tag in argument (ex: happy))
+   - *avatar*       => Displays profile picture of anybody mentionned in arguments
+   - *ping*         => Displays the bot latence
+   - *invite*       => Generate a link to invite NaBot to your server
+   - *test*         => Just a command to make sure the bot is online
+   - *xkcd*         => Prints a random xkcd comic (you can specify "last" to get the last comic)
+   - *commitstrip*  => Display a random commitstrip
+   - *fortune*      => Prints a random fortune
