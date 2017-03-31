@@ -11,7 +11,9 @@
   "dependencies": {
     "discord.js": "^11.0.0",
     "jsdom": "^9.12.0",
-    "request": "^2.81.0"
+    "node-opus": "^0.2.4",
+    "request": "^2.81.0",
+    "ytdl-core": "^0.10.3"
   },
   "scripts": {
     "start": "node nabot.js"

@@ -20,6 +20,9 @@ bot.on("message", function(message){
         i--;
       }
     }
+    // if the command don't exist, exit the function
+    if (!nabot[cmd]){return false;}
+
     args.shift();
     // We print the command and the author in the server's console
     console.log('######################');
@@ -28,12 +31,14 @@ bot.on("message", function(message){
     console.log('Arguments : '+args.toString());
 
     nabot.setArgs(args);
-    nabot.setMsg(msg);
+    nabot.setMsg(message);
     var response = nabot[cmd](function(res){
-      console.log('Response : '+res);
-      message.channel.send(res);
+      if (res) {
+        console.log('Response : '+res);
+        message.channel.send(res);
+      }
+      console.log('######################');
     });
-    console.log('######################');
   }
 });
 
